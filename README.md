@@ -1,0 +1,2 @@
+# magazus-client
+Magazus CLI
