@@ -27,9 +27,7 @@ public class ApplicationStartupRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws IOException {
         //proxiesService.load();
-
-        // registryItemsService.loadItemsAndAttributes();
+        //registryItemsService.loadItemsAndAttributes();
         registryItemsService.loadItemRelations();
-
     }
 }
